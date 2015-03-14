@@ -9,14 +9,6 @@ $ composer require rivsen/hello-world dev-master
 $ touch test.php
 ```
 
-```php
-<?php
-require_once "vendor/autoload.php";
-
-$hello = new Rivsen\Demo\Hello();
-echo $hello->hello();
-```
-
 ```bash
 $ php test.php
 ```
