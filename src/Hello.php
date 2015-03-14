@@ -20,3 +20,6 @@ class Hello
         return 'Hello '.$this->name.'!';
     }
 }
+function hello ($name) {
+    return 'Hello, '.$name.'!';
+}
